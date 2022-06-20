@@ -2,20 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/anime_choose"
+        android:id="@id/anime_nav_graph"
         android:icon="@drawable/ic_anime"
         android:title="@string/anime"
         android:orderInCategory="1"
         />
 
     <item
-        android:id="@+id/manga_choose"
+        android:id="@id/manga_nav_graph"
         android:icon="@drawable/ic_manga"
         android:title="@string/manga"
         android:orderInCategory="2"/>
 
     <item
-        android:id="@+id/people_choose"
+        android:id="@id/people_nav_graph"
         android:icon="@drawable/ic_people"
         android:title="@string/people"
         android:orderInCategory="3"/>
