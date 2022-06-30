@@ -15,13 +15,13 @@
         android:orderInCategory="2"/>
 
     <item
-        android:id="@id/people_nav_graph"
+        android:id="@id/characters_nav_graph"
         android:icon="@drawable/ic_characters"
         android:title="@string/character"
         android:orderInCategory="3"/>
 
     <item
-        android:id="@id/characters_nav_graph"
+        android:id="@id/people_nav_graph"
         android:icon="@drawable/ic_people"
         android:title="@string/people"
         android:orderInCategory="4"/>

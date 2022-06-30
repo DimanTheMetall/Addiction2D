@@ -14,6 +14,61 @@
         <!-- Customize your theme here. -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-
     </style>
+
+
+
+    <style name="NavigateCard">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardBackgroundColor">@color/transparent</item>
+        <item name="strokeWidth">4dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="NavigateCard.AnimeNavigateCard">
+        <item name="strokeColor">@color/red_pink</item>
+    </style>
+
+    <style name="NavigateTextView">
+        <item name="android:textSize">36sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="NavigateTextView.AnimeNavigateTextView">
+        <item name="android:textColor">@color/red_pink</item>
+    </style>
+
+
+    <style name="NavigateCard.MangaNavigateCard">
+        <item name="strokeColor">@color/blue</item>
+    </style>
+
+    <style name="NavigateTextView.MangaNavigateTextView">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+
+    <style name="NavigateCard.PeopleNavigateCard">
+        <item name="strokeColor">@color/pink_2</item>
+    </style>
+
+    <style name="NavigateTextView.PeopleNavigateTextView">
+        <item name="android:textColor">@color/pink_2</item>
+    </style>
+
+
+    <style name="NavigateCard.CharNavigateCard">
+        <item name="strokeColor">@color/pink</item>
+    </style>
+
+    <style name="NavigateTextView.CharNavigateTextView">
+        <item name="android:textColor">@color/pink</item>
+    </style>
+
+
+
 </resources>

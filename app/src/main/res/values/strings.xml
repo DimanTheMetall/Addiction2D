@@ -13,5 +13,8 @@
 
 
     <string name="anime_tag">Manga</string>
+    <string name="search_without_dot">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="random">Random</string>
 
 </resources>

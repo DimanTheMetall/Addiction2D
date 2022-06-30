@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,11 +9,46 @@
     android:orientation="vertical"
     tools:context=".mvvm.Anime.AnimeStartFragment">
 
-    <include
-        layout="@layout/search_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/searchAnimeCard"
+        style="@style/NavigateCard.AnimeNavigateCard"
+        android:layout_marginTop="0dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/NavigateTextView.AnimeNavigateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_without_dot" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/favoriteAnimeCard"
+        style="@style/NavigateCard.AnimeNavigateCard">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/NavigateTextView.AnimeNavigateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favorite">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/randomAnimeCard"
+        style="@style/NavigateCard.AnimeNavigateCard">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/NavigateTextView.AnimeNavigateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/random">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </com.google.android.material.card.MaterialCardView>
 
 
 </LinearLayout>
