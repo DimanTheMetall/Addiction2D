@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.fragment.app.FragmentContainerView
-    android:id="@+id/activity_fragment_container"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity"
-    app:defaultNavHost="true"
-    app:navGraph="@navigation/nav_graph"
-    android:name="androidx.navigation.fragment.NavHostFragment"
-    android:background="@color/black">
+    tools:context=".MainActivity">
 
-</androidx.fragment.app.FragmentContainerView>
+
+    <androidx.fragment.app.FragmentContainerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_fragment_container"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_pink"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/root_graph"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btm_nav_view"
+        app:itemIconTint="@color/btm_selector"
+        app:itemTextColor="@color/btm_selector"
+        app:labelVisibilityMode="labeled"
+        android:background="@color/pink_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/btm_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

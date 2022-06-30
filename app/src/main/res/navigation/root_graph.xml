@@ -2,9 +2,10 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root_graph"
-    app:startDestination="@id/manga_nav_graph">
+    app:startDestination="@id/anime_nav_graph">
 
     <include app:graph="@navigation/anime_nav_graph" />
-    <include app:graph="@navigation/manga_nav_graph" />
     <include app:graph="@navigation/people_nav_graph" />
+    <include app:graph="@navigation/manga_nav_graph" />
+    <include app:graph="@navigation/characters_nav_graph" />
 </navigation>

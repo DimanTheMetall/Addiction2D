@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/manga_nav_graph"
-    app:startDestination="@id/mangaFragment">
+    app:startDestination="@id/mangaStartFragment">
 
     <fragment
-        android:id="@+id/mangaFragment"
-        android:name="com.example.addiction2d.mvvm.Manga.MangaFragment"
-        android:label="fragment_manga"
-        tools:layout="@layout/fragment_manga" />
+        android:id="@+id/mangaStartFragment"
+        android:name="com.example.addiction2d.mvvm.Manga.MangaStartFragment"
+        android:label="fragment_manga_start"
+        tools:layout="@layout/fragment_manga_start" />
 </navigation>
