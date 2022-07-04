@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingTextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="SettingTextView.AnimeSettings">
+        <item name="android:textColor">@color/red_pink</item>
+    </style>
+
+    <style name="TextOnItem">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextOnItem.Anime">
+        <item name="android:textColor">@color/red_pink</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">46dp</item>
+    </style>
+
+    <style name="EditText.Anime">
+        <item name="android:textColor">@color/red_pink</item>
+        <item name="android:textColorHint">@color/red_pink</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+    </style>
+
+
+
+
+</resources>

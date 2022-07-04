@@ -17,7 +17,8 @@
     <color name="blue">#08D9D6</color>
     <color name="white_blue">#C8FAF9</color>
     <color name="red_pink">#FF2E63</color>
-    <color name="white_pink">#FCCEDB</color>
+    <color name="white_pink_edit_text">#FF91AC</color>
+    <color name="white_pink">#FFE0E8</color>
     <color name="pink">#FF68C3</color>
     <color name="pink_2">#ED7894</color>
     <color name="white_pink_2">#ECBCC8</color>

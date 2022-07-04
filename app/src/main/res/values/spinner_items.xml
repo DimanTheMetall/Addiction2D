@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_spinner_items">
+        <item>TV</item>
+        <item>Movie</item>
+        <item>OVA</item>
+        <item>Special</item>
+        <item>ONA</item>
+        <item>Music</item>
+    </string-array>
+
+    <string-array name="rating_spinner_item">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="status_spinner_items">
+        <item>airing</item>
+        <item>complete</item>
+        <item>upcoming</item>
+    </string-array>
+
+    <string-array name="age_rating_items">
+        <item>g</item>
+        <item>pg</item>
+        <item>pg13</item>
+        <item>r17</item>
+        <item>r</item>
+        <item>rx</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

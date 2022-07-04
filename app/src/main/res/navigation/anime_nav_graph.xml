@@ -8,5 +8,23 @@
         android:id="@+id/animeStartFragment"
         android:name="com.example.addiction2d.mvvm.Anime.AnimeStartFragment"
         android:label="fragment_anime_start"
-        tools:layout="@layout/fragment_anime_start" />
+        tools:layout="@layout/fragment_anime_start" >
+        <action
+            android:id="@+id/action_animeStartFragment_to_animeSearchFragment"
+            app:destination="@id/animeSearchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animeSearchFragment"
+        android:name="com.example.addiction2d.mvvm.AnimeSearch.AnimeSearchFragment"
+        android:label="fragment_anime_search"
+        tools:layout="@layout/fragment_anime_search" >
+        <action
+            android:id="@+id/action_animeSearchFragment_to_animeSearchSettingsFragment"
+            app:destination="@id/animeSearchSettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animeSearchSettingsFragment"
+        android:name="com.example.addiction2d.mvvm.AnimeSearchSettings.AnimeSearchSettingsFragment"
+        android:label="fragment_anime_search_settings"
+        tools:layout="@layout/fragment_anime_search_settings" />
 </navigation>
